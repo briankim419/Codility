@@ -49,7 +49,7 @@ class Player
       @scores.each do |score|
         sum += score
       end
-  
+
     return (sum / @scores.size).round(2)
     end
   end
@@ -72,6 +72,7 @@ puts new_board.leaderboard.size != 6
 # expect add_score() to return correct averge after adding score to selected player
 puts new_board.add_score(1, 35) == 40
 # expect top() to return correct list of order player id's
+puts "TOP()"
 puts new_board.top(2, [1, 2]) == [2, 1]
 puts new_board.top(2, [1, 2]) != [1, 2]
 # expect reset() to reset selected players score to 0

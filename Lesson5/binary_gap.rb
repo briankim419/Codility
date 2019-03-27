@@ -5,7 +5,7 @@ def solution(n)
   gap = 0
   idx = nil
   num = binary.split("")
-  num.each_with_index() do |x, i|
+  num.each_with_index do |x, i|
     if x == '1' && idx == nil
       idx = i
     elsif x == '1' && idx != nil

@@ -1,0 +1,40 @@
+.settingOne{
+  color: black;
+}
+
+.favoriteButton{
+  color: green;
+}
+
+.settingTwo{
+  color: red;
+}
+
+.cardlist{
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: lightyellow;
+  box-sizing: border-box;
+  text-align: center;
+}
+#container > div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.outer {
+  border: 1px solid #000;
+  display:flex;
+  justify-content: center;
+  padding: 3px;
+}
+.outer > div {
+  border: 1px solid #000;
+  margin:2px;
+}

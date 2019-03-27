@@ -1,0 +1,62 @@
+body {
+  background-color: #FFD8DF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#main{
+  border: 1px solid #05365b;
+  float: left;
+  width: 50%
+}
+
+#main-2{
+  border: 1px solid #05365b;
+  float: right;
+  width: 50%
+}
+
+##centers div
+
+margin:auto;
+width: 50%
+
+#to stop any images from going outside the div
+
+overflow: auto;
+
+text-align: center;
+
+takes into account of margin and padding in width and height
+box-sizing: boreder-box;
+
+
+##center a image
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+console.log(Object.keys(object1));
+
+
+var y = obj.hasOwnProperty("name");
+
+console.log(y) //true
+
+var z = obj.hasOwnProperty("color");
+
+console.log(z); //false
+
+
+delete person.age
+
+Obkect.keys(objectname)
+object.vales(objectname)
+
+.includes

@@ -1,0 +1,40 @@
+.list {
+  list-style: none;
+}
+
+.list-item {
+  list-style: none;
+  width: 400px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 5px solid #000;
+  clear: both;
+  overflow: hidden;
+}
+
+.list-item.light {
+  border-color: #f7f7f7;
+  background: #fff url('http://www.easyfreepatterns.com/patterns/0/corner-pattern-background-light-grey-color-squared-90-degrees-lines--57.jpg') 0 0 repeat;
+}
+
+.list-item.dark {
+  border-color: #3B3E43;
+  background: #000 url('http://2.bp.blogspot.com/-MqHV6G7hyyk/UPt6-iPnlDI/AAAAAAAAEQI/i6kKL6Hqxaw/s1600/dark_brick_pattern.jpg') 0 0 repeat;
+}
+
+.list-item.blue {
+  border-color: #99c4e7;
+  background: url('http://photos.gograph.com/thumbs/CSP/CSP955/k9553503.jpg') 0 0 repeat;
+}
+
+button.active {
+  font-weight: bold;
+}
+
+.list-item-theme {
+  float: left;
+}
+
+.list-item-actions {
+  float: right;
+}
